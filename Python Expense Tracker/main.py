@@ -14,7 +14,7 @@ def monthly_expense():
     print("haki")
 
 def exit():
-    print("haki")
+    print("Exited the program succefully")
 
 
 print("\n===PERSONAL EXPENSE TRACKER===\n")
@@ -48,3 +48,6 @@ try:
 
 except ValueError:
     print("Invalid Value Entered !!")
+
+
+print("Thank you for using PERSONAL EXPENSE TRACKER \n Have a Nice Day !!")
