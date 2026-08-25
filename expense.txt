@@ -1,0 +1,4 @@
+Your expense are as follows :->
+CATEGORY|EXPENSE|DATE
+travel|200|20-08-2025
+food|300|20-08-2025
