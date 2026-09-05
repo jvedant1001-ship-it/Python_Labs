@@ -6,15 +6,25 @@ I'm learning by building, debugging, and improving rather than only following tu
 
 📌 About This Repository
 
-This repository contains the small projects I'm building as I improve my Python and problem-solving skills.
+This repository contains small projects I'm building as I improve my Python skills, problem-solving ability, and programming fundamentals.
 
+The goal isn't to write perfect code from the beginning.
+
+The goal is to:
+
+Build things from scratch
+Make mistakes
+Debug them
+Understand why they happened
+Improve the code
+Gradually take on more challenging projects
 🎯 Main Goals
-Strengthen Python fundamentals
-Improve problem-solving ability
-Get better at translating logic → code
-Practice debugging and handling edge cases
-Build projects instead of only following tutorials
-Gradually move toward AI/ML development
+🐍 Strengthen Python fundamentals
+🧠 Improve problem-solving ability
+🔄 Get better at translating logic → code
+🐞 Practice debugging and handling edge cases
+🛠️ Build projects instead of only following tutorials
+🤖 Gradually move toward AI/ML development
 📂 Projects
 💰 01 — Personal Expense Tracker
 
@@ -22,9 +32,9 @@ A command-line application for managing personal expenses and income.
 
 ✨ Features
 ➕ Add multiple expenses
-🏷️ Store expense category
-💵 Store expense amount
-📅 Store expense date
+🏷️ Store expense categories
+💵 Store expense amounts
+📅 Store expense dates
 🗓️ Automatically use today's date
 👀 Display recorded expenses
 🗑️ Remove expenses
@@ -38,7 +48,7 @@ Functions · Loops · Lists · File Handling · datetime · Exception Handling �
 
 📚 02 — Library Management System
 
-A command-line application for managing books and practicing program logic.
+A command-line application for managing books while practicing program logic and file handling.
 
 ✨ Features
 ➕ Add books
@@ -64,13 +74,13 @@ Additional library features
 
 One of the biggest lessons from these projects has been:
 
-Knowing the logic ≠ knowing how to write the code
+Knowing the logic ≠ knowing how to write the code.
 
 I often understand what I want the program to do, but translating that idea into correct Python syntax can be the difficult part.
 
 Building these projects has helped me practice:
 
-Area	What I'm practicing
+Area	What I'm Practicing
 🐍 Python	Core syntax and programming concepts
 🔄 Control Flow	Loops and conditions
 🧩 Functions	Breaking problems into smaller parts
@@ -85,19 +95,20 @@ Area	What I'm practicing
 
 I'm learning that debugging isn't just about removing an error.
 
-I'm trying to understand why the program behaved differently from what I expected.
+It's about understanding why the program behaved differently from what I expected.
 
-My process:
+My current process:
+
 ┌─────────────────────┐
-│  Learn a concept    │
+│   Learn a concept   │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
-│  Build something    │
+│   Build something   │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
-│    Get stuck 😅     │
+│     Get stuck 😅    │
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
@@ -113,7 +124,7 @@ My process:
 └─────────────────────┘
 
 
-Small problems with things like \n, strip(), lists, indexing, file handling, and indentation have ended up teaching me a lot.
+Small problems involving things like \n, strip(), lists, indexing, file handling, and indentation have ended up teaching me a lot.
 
 🚀 What's Next?
 
@@ -124,9 +135,9 @@ This repository will continue to grow as I learn.
 🏗️ Object-Oriented Programming
 💾 JSON and database storage
 🌐 Working with APIs
-📊 Data analysis
+📊 Data Analysis
 ⚙️ Automation
-🤖 AI/ML fundamentals
+🤖 AI/ML Fundamentals
 🔧 Refactoring older projects
 🛡️ Better validation and edge-case handling
 
@@ -151,12 +162,12 @@ Currently Using
 🧠 Problem Solving
 📅 Python Standard Library
 Learning Next
-JSON
-OOP
-APIs
-Databases
-Data Analysis
-AI/ML
+💾 JSON
+🏗️ Object-Oriented Programming
+🌐 APIs
+🗄️ Databases
+📊 Data Analysis
+🤖 AI/ML
 🚧 Repository Status
 
 Actively Learning & Building
@@ -170,8 +181,7 @@ Look different as my skills improve
 
 That's part of the purpose of this repository.
 
-The goal isn't perfect code.
-The goal is continuous improvement.
+The goal isn't perfect code. The goal is continuous improvement.
 
 👨‍💻 About Me
 
