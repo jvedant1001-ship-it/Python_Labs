@@ -1,34 +1,105 @@
 
 def add_books():
+    number_of_books = int(input("number of books you want to add : \n"))
     with open("books.txt",'a') as f:
-        add = input("write the name of book you want to add")
-        f.write(add)
-
+        for i in range(number_of_books):
+            add = input("write the name of book you want to add : \n")
+            f.write(f"{add} \n")
     
 def remove_books():
-    return
+    book = input("Enter the book you want to remove : \n")
+    with open("books.txt", "r") as f:
+        a = f.readlines()
+    with open("books.txt",'w') as f:
+        found = False
+
+        for line in a:
+            if line.strip() == book:
+                found = True
+            else:
+                f.write(line)
+
+    if found:
+        print("book removed")
+    else:
+        print("book not found")
+
+
 def show_books():
     with open('books.txt','r') as f:
         data = f.read()
         print(data)
+
 def status_book():
-    return
-def search_books():
-    book = str(input("Enter the book you want to search "))
+    book = input("Enter the book you want to check : \n")
     with open("books.txt",'r') as f:
         a = f.readlines()
-        if book == a:
+    found = False
+    for line in a:
+        if line.strip() == book:
+            found = True
+    if found:
+        print("book is available")
+    else:
+        print("book not found")
+
+def search_books():
+    book = input("Enter the book you want to search ")
+    with open("books.txt",'r') as f:
+        a = f.readlines()
+        for line in a:
+         line = line.strip()
+         if book.lower() in line.lower():
             print("book found")
-        else:
+         else:
             print("no book found")
     
 def borrow_books():
-    return
+    book = input("Enter the book you want to borrow : \n")
+    with open("books.txt", "r") as f:
+        a = f.readlines()
+    found = False
+
+    for line in a:
+        if line.strip() == book:
+            found= True
+
+    if found:
+        with open("books.txt",'a') as f:
+            f.write(f"{book} \n")
+
+        print("book borrowed")
+    else:
+        print("book not found")
+
+
 def return_books():
+    book = input("Enter the book you want to return : \n")
+
+    with open("books.txt", 'r') as f:
+        a = f.readlines()
+    found =False
+    with open("borrowed.txt",'w') as f:
+        for line in a:
+            if line.strip() == book:
+                found = True
+            else:
+                f.write(line)
+
+    if found:
+        print("book returned")
+    else:
+        print("book was not borrowed")
+
+
+def change_name_of_book():
     return
-def exit():
+
+def exit_program():
     print("successfully loged out \n Have a good day")
     
+
+
 
 while True:
     print("Welcome Buddy !!")
@@ -47,10 +118,10 @@ while True:
     print("1.add_books")
     print("2.show_books")
     print("3.remove_books")
-    print("4.view_books")
-    print("5.search_books")
-    print("6.borrow_books")
-    print("7.return_books")
+    print("4.search_books")
+    print("5.borrow_books")
+    print("6.return_books")
+    print("7.change_name_of_book")
     print("8.exit")
 
     try:
@@ -63,18 +134,17 @@ while True:
         elif user == 3:
             remove_books()
         elif user == 4:
-            show_books()
-        elif user == 5:
             search_books()
-        elif user == 6:
+        elif user == 5:
             borrow_books()
+        elif user == 6:
+            return_books()
         elif user == 7:
-                return_books()
-        elif user == 8:
-            exit()
+            exit_program()
+            break
+       
         else:
             print(" Value Exceeded from the current choices !!")
 
     except ValueError:
         print("Invalid Value Entered !!")
-
