@@ -1,215 +1,186 @@
 🐍 Python Labs
 
-A growing collection of Python projects I'm building while strengthening my programming fundamentals, problem-solving skills, and CSE concepts.
+A collection of Python projects I'm building while strengthening my programming fundamentals and preparing for AI/ML.
 
-My long-term goal is to move toward AI/ML, but I'm focusing on getting comfortable with Python and core programming concepts first.
+I'm learning by building, debugging, and improving rather than only following tutorials.
 
-Learn → Build → Break → Debug → Understand → Improve
+📌 About This Repository
 
-This repository is where I'm documenting that process.
+This repository contains the small projects I'm building as I improve my Python and problem-solving skills.
 
+🎯 Main Goals
+Strengthen Python fundamentals
+Improve problem-solving ability
+Get better at translating logic → code
+Practice debugging and handling edge cases
+Build projects instead of only following tutorials
+Gradually move toward AI/ML development
 📂 Projects
-💰 Personal Expense Tracker
+💰 01 — Personal Expense Tracker
 
-A command-line application for tracking personal expenses and income.
+A command-line application for managing personal expenses and income.
 
-Features:
+✨ Features
+➕ Add multiple expenses
+🏷️ Store expense category
+💵 Store expense amount
+📅 Store expense date
+🗓️ Automatically use today's date
+👀 Display recorded expenses
+🗑️ Remove expenses
+💰 Add income
+📊 Calculate monthly expenses
+⚠️ Basic input validation
+💾 Persistent storage using text files
+🧠 Concepts Practiced
 
-Add multiple expenses
-Store:
-Category
-Amount
-Date
-Automatically use today's date
-Display recorded expenses
-Remove expenses
-Add income
-Calculate monthly expenses
-Basic input validation
-Persistent storage using text files
+Functions · Loops · Lists · File Handling · datetime · Exception Handling · String Manipulation
 
-Concepts practiced:
+📚 02 — Library Management System
 
-Functions
-Loops
-Conditional statements
-Lists
-File handling
-String manipulation
-datetime
-Exception handling
-Data processing
-📚 Library Management System
+A command-line application for managing books and practicing program logic.
 
-A command-line application for managing books and practicing program logic and file handling.
+✨ Features
+➕ Add books
+📖 Display books
+🗑️ Remove books
+🔎 Search for books
+📤 Borrow books
+📥 Return books
+✏️ Change book names
+⚠️ Input validation
+💾 File-based data storage
+🧠 Concepts Practiced
 
-Features:
+Functions · Loops · Lists · File Handling · strip() · Conditional Logic · Boolean Flags · Exception Handling
 
-Add books
-Display books
-Remove books
-Search for books
-Borrow books
-Return books
-Change book names
-Basic input validation
-File-based storage
-
-Concepts practiced:
-
-Functions
-Loops
-Lists
-File handling
-strip() and string methods
-Conditional logic
-Boolean flags
-Exception handling
-Reading and rewriting files
-
-Next improvements:
-
+🚧 Planned Improvements
 Better data structures
-More robust book management
 Improved edge-case handling
-More functionality
+More robust book management
 Structured data storage
+Additional library features
 🧠 What I'm Learning
 
-Building these projects has helped me understand that programming is more than just knowing syntax.
+One of the biggest lessons from these projects has been:
 
-Some of the concepts I'm getting hands-on experience with:
+Knowing the logic ≠ knowing how to write the code
 
-🐍 Python fundamentals
-🔄 Loops and control flow
-🧩 Functions and modular code
-📁 File handling
-📋 Lists and data structures
-🔤 String manipulation
-📅 Working with dates
-⚠️ Exception handling
-🐞 Debugging
-🧠 Problem solving
+I often understand what I want the program to do, but translating that idea into correct Python syntax can be the difficult part.
 
-One of my biggest lessons so far:
+Building these projects has helped me practice:
 
-Knowing the logic and being able to express that logic in code are two different skills.
+Area	What I'm practicing
+🐍 Python	Core syntax and programming concepts
+🔄 Control Flow	Loops and conditions
+🧩 Functions	Breaking problems into smaller parts
+📁 File Handling	Reading, writing, and updating files
+📋 Data	Lists and basic data structures
+🔤 Strings	split(), strip(), formatting
+📅 Dates	Python datetime
+⚠️ Errors	try/except and input validation
+🐞 Debugging	Finding and understanding bugs
+🧠 Problem Solving	Turning ideas into working programs
+🐞 My Debugging Process
 
-Sometimes I know exactly what I want the program to do, but turning that idea into correct Python syntax is the difficult part.
+I'm learning that debugging isn't just about removing an error.
 
-That's something I'm actively working on through these projects.
+I'm trying to understand why the program behaved differently from what I expected.
 
-🐞 Debugging Is Part of the Learning
+My process:
+┌─────────────────────┐
+│  Learn a concept    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│  Build something    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│    Get stuck 😅     │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      Debug 🐞       │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│   Understand why    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      Improve        │
+└─────────────────────┘
 
-One thing I've started appreciating more is debugging.
 
-Instead of treating errors as something that simply needs to be removed, I'm trying to understand:
-
-What did I expect to happen?
-What actually happened?
-What does each variable contain?
-Where does the program's behavior change?
-Why did my assumption turn out to be wrong?
-How can I fix the underlying logic?
-
-Small problems such as newline characters, list contents, indexing, file rewriting, and indentation have taught me more than simply reading about those concepts.
-
-🎯 Why I'm Building These Projects
-
-I'm currently strengthening my Python fundamentals before going deeper into Artificial Intelligence and Machine Learning.
-
-Rather than only following tutorials, I'm trying to:
-
-Learn a concept
-Build something with it
-Run into problems
-Debug those problems
-Understand the solution
-Improve the project
-
-I want these projects to become progressively more complex as my skills improve.
+Small problems with things like \n, strip(), lists, indexing, file handling, and indentation have ended up teaching me a lot.
 
 🚀 What's Next?
 
-This repository is still under development.
+This repository will continue to grow as I learn.
 
-Future projects and improvements may include:
-
-📊 Data analysis projects
-🧱 Data structures
+🔜 Coming Up
+🧱 Data Structures
 🏗️ Object-Oriented Programming
+💾 JSON and database storage
 🌐 Working with APIs
-🤖 Automation
-🧮 More advanced problem-solving projects
-🧠 AI/ML fundamentals
-💾 JSON and database-based storage
+📊 Data analysis
+⚙️ Automation
+🤖 AI/ML fundamentals
 🔧 Refactoring older projects
 🛡️ Better validation and edge-case handling
 
-I'm also planning to revisit older projects and improve them instead of simply moving on to the next one.
+I also want to revisit older projects and improve them instead of simply moving on once they work.
 
-📈 My Progress
+📈 Learning Philosophy
 
-This repository isn't meant to showcase perfect or production-ready software.
+I'm not trying to make every project perfect on the first attempt.
 
-It's a record of my learning.
+I'm trying to make each project better than the previous one.
 
-Current approach:
+My current approach:
 
-Learn a concept
-      ↓
-Build a small project
-      ↓
-Get stuck
-      ↓
-Debug
-      ↓
-Understand
-      ↓
-Fix
-      ↓
-Improve
-      ↓
-Build something harder
-
-
-As the projects become more complex, I expect this repository to change along with my understanding of Python.
+Learn → Build → Break → Debug → Understand → Improve
 
 🛠️ Tech Stack
+Currently Using
+🐍 Python
+📁 Python File Handling
+📋 Basic Data Structures
+⚠️ Exception Handling
+🧠 Problem Solving
+📅 Python Standard Library
+Learning Next
+JSON
+OOP
+APIs
+Databases
+Data Analysis
+AI/ML
+🚧 Repository Status
 
-Currently working with:
+Actively Learning & Building
 
-Python
-Python Standard Library
-File Handling
-Basic Data Structures
-Exception Handling
-Problem Solving
+This is a learning repository, so some projects may:
 
-More technologies will be added as I progress.
+Be incomplete
+Have known limitations
+Be refactored later
+Look different as my skills improve
 
-📌 Repository Status
+That's part of the purpose of this repository.
 
-🚧 Actively learning and building
+The goal isn't perfect code.
+The goal is continuous improvement.
 
-Projects may be incomplete or have limitations.
+👨‍💻 About Me
 
-That's intentional.
-
-The goal is not:
-
-"Write perfect code on the first attempt."
-
-The goal is:
-
-Build → Break → Debug → Understand → Improve
-
-👨‍💻 About
-
-I'm a B.Tech CSE student currently strengthening my programming fundamentals and working toward learning AI/ML.
+I'm a B.Tech CSE student currently strengthening my programming fundamentals and working toward AI/ML.
 
 I'm using small projects to turn concepts into practical experience and become more comfortable solving problems independently.
 
 This repository is a record of that journey.
 
-⭐ More projects, experiments, and improvements coming as I learn.
+⭐ More Projects Coming
+
+More code. More bugs. More debugging. More learning.
