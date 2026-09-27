@@ -1,0 +1,18 @@
+{
+    "100001": {
+        "account_number": "100001",
+        "name": "vedant",
+        "pin": "1001",
+        "balance": 123456789.0,
+        "transactions": [
+            {
+                "type": "Initial Deposit",
+                "amount": 123456789.0,
+                "balance": 123456789.0,
+                "date": "2026-09-26 20:11:45"
+            }
+        ],
+        "account_type": "Savings",
+        "interest_rate": 4
+    }
+}
