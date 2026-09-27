@@ -1,541 +1,305 @@
 # 🐍 Python Labs
 
-A growing collection of Python projects I'm building while strengthening my programming fundamentals and preparing for a future in **AI/ML development**.
+> A hands-on collection of Python projects built while learning, experimenting, debugging, and improving.
 
-I'm learning by **building, debugging, understanding, and improving** rather than simply following tutorials.
-
----
-
-## 📌 About This Repository
-
-This repository contains small Python projects created while improving my:
-
-- Python programming skills
-- Problem-solving ability
-- Programming fundamentals
-- Debugging skills
-- Understanding of data and logic
-- Ability to turn ideas into working programs
-
-The goal isn't to write perfect code from the beginning.
-
-The goal is to:
-
-- 🛠️ Build projects from scratch
-- 🐞 Make mistakes and learn from them
-- 🔍 Debug problems and understand their causes
-- 🧠 Understand how and why the code works
-- 🔧 Improve projects through refactoring
-- 🚀 Gradually take on more challenging problems
-- 🤖 Build a foundation for AI/ML development
-
-This repository is a record of my progress as I learn.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Projects](https://img.shields.io/badge/Projects-3+-blue?style=flat-square)](#-projects)
+[![Status](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen?style=flat-square)](#-repository-status)
 
 ---
 
-## 🎯 Main Goals
+## 👋 Welcome
 
-My current learning goals are:
+This repository is my **Python learning laboratory**.
 
-- 🐍 Strengthen Python fundamentals
-- 🧠 Improve problem-solving ability
-- 🔄 Get better at translating logic into code
-- 🧩 Learn to break large problems into smaller problems
-- 🐞 Practice debugging and handling edge cases
-- 🛠️ Build projects instead of only following tutorials
-- 📁 Become comfortable with file and data handling
-- 🏗️ Learn better software structure and organization
-- 🤖 Gradually move toward AI/ML development
+Instead of only learning Python through tutorials and theory, I'm using this repository to turn concepts into working programs.
+
+Every project gives me an opportunity to:
+
+- 🧠 Understand a new concept
+- 🛠️ Build something with it
+- 🐞 Run into bugs
+- 🔍 Debug and understand them
+- 🔧 Refactor and improve
+- 📈 Apply what I've learned to the next project
+
+This repository is not meant to showcase perfect code.
+
+It is meant to show **progress through practice**.
 
 ---
 
 # 📂 Projects
 
-## 💰 01 — Personal Expense Tracker
+| # | Project | Description | Main Concepts |
+|---|---|---|---|
+| 01 | 💰 **Personal Expense Tracker** | Track expenses, income, dates, and monthly spending | Functions, Files, `datetime`, Exception Handling |
+| 02 | 📚 **Library Management System** | Manage books through a command-line interface | Functions, File Handling, Loops, Strings |
+| 03 | 🏦 **Banking Management System** | Manage accounts, transactions, PINs, transfers, and account types | OOP, JSON, Inheritance, Encapsulation |
 
-A command-line application for managing personal expenses and income.
-
-### ✨ Features
-
-- ➕ Add multiple expenses
-- 🏷️ Store expense categories
-- 💵 Store expense amounts
-- 📅 Store expense dates
-- 🗓️ Automatically use today's date
-- 👀 Display recorded expenses
-- 🗑️ Remove expenses
-- 💰 Add income
-- 📊 Calculate monthly expenses
-- ⚠️ Basic input validation
-- 💾 Persistent storage using text files
-
-### 🧠 Concepts Practiced
-
-- Functions
-- Loops
-- Lists
-- File handling
-- `datetime`
-- Exception handling
-- String manipulation
-- Conditional logic
-- Input validation
+> 📌 Each project has its own README containing its features, implementation details, limitations, and future improvements.
 
 ---
 
-## 📚 02 — Library Management System
+## 🔎 Explore the Projects
 
-A command-line application for managing books while practicing programming logic, file handling, and user input.
+### 💰 Personal Expense Tracker
 
-### ✨ Features
+A command-line application for recording expenses and income and calculating monthly spending.
 
-- ➕ Add books
-- 📖 Display books
-- 🗑️ Remove books
-- 🔎 Search for books
-- 📤 Borrow books
-- 📥 Return books
-- ✏️ Change book names
-- ⚠️ Input validation
-- 💾 File-based data storage
+**What I practiced:**
 
-### 🧠 Concepts Practiced
+`Functions` · `File Handling` · `datetime` · `Loops` · `Exception Handling` · `String Processing`
 
-- Functions
-- Loops
-- Lists
-- File handling
-- `strip()`
-- Conditional logic
-- Boolean flags
-- Exception handling
-- Input validation
-- Basic state management
+📁 [`Python Expense Tracker/`](./Python%20Expense%20Tracker/)
 
 ---
 
-## 🚧 Planned Improvements
+### 📚 Library Management System
 
-Future improvements for the Library Management System include:
+A command-line application for managing books using simple text-file storage.
 
-- 🧱 Better data structures
-- 🏗️ Object-oriented design
-- 🛡️ More robust input validation
-- 🐞 Improved edge-case handling
-- 📚 Better book management
-- 💾 Structured data storage
-- 🗄️ JSON or database integration
-- 🔎 More advanced search functionality
-- 📊 Improved reporting and statistics
+**What I practiced:**
+
+`Functions` · `Loops` · `File Handling` · `Lists` · `String Manipulation` · `Input Validation`
+
+📁 [`Library Management System/`](./Library%20Management%20System/)
+
+---
+
+### 🏦 Banking Management System
+
+A more structured Python application for managing bank accounts and transactions.
+
+The project includes:
+
+- 👤 Account creation and login
+- 🔐 PIN verification and PIN changes
+- 💰 Deposits and withdrawals
+- 🔄 Money transfers
+- 📜 Transaction history
+- 🏦 Savings and Current accounts
+- 💹 Savings interest calculation
+- 💾 JSON-based persistent storage
+- 🧱 Object-oriented design
+- 🔄 Inheritance and method overriding
+
+**What I practiced:**
+
+`Classes` · `Objects` · `Inheritance` · `Encapsulation` · `Polymorphism` · `JSON` · `File Handling` · `Exception Handling`
+
+📁 [`Banking Project/`](./Banking%20Project/)
 
 ---
 
 # 🧠 What I'm Learning
 
-One of the biggest lessons I've learned from these projects is:
+My focus is currently on building a strong foundation in Python and programming fundamentals.
 
-> **Knowing the logic is not the same as knowing how to write the code.**
+### 🟢 Current
 
-I can often understand what I want a program to do, but translating that idea into correct Python syntax and program structure can be challenging.
+- 🐍 Python fundamentals
+- 🧩 Functions
+- 🔄 Control flow
+- 📋 Data structures
+- 📁 File handling
+- 🧱 Object-Oriented Programming
+- 💾 JSON and structured data
+- 🐞 Debugging
+- ⚠️ Exception handling
+- 🧠 Problem solving
 
-Building these projects has helped me become more comfortable with that process.
+### 🟡 Next
 
-### Areas I'm Practicing
+- 📚 Data Structures & Algorithms
+- 🧪 Testing
+- 🧹 Refactoring
+- 🌐 APIs
+- 🗄️ SQL & Databases
+- 📊 NumPy & Pandas
+- 📈 Data analysis
 
-| Area | What I'm Practicing |
-|---|---|
-| 🐍 Python | Core syntax and programming concepts |
-| 🔄 Control Flow | Loops, conditions, and program flow |
-| 🧩 Functions | Breaking problems into smaller components |
-| 📁 File Handling | Reading, writing, and updating files |
-| 📋 Data | Lists and basic data structures |
-| 🔤 Strings | `split()`, `strip()`, formatting, and manipulation |
-| 📅 Dates | Working with Python `datetime` |
-| ⚠️ Errors | `try/except` and input validation |
-| 🐞 Debugging | Finding, understanding, and fixing bugs |
-| 🧠 Problem Solving | Turning ideas and requirements into working programs |
+### 🔵 Later
+
+- 🤖 Machine Learning
+- 🧠 Deep Learning
+- 📊 Statistics
+- 🧮 Mathematics for ML
+- 🚀 AI/ML projects
 
 ---
 
-# 🐞 My Debugging Process
+# 🛠️ Tech Stack
 
-I'm learning that debugging isn't simply about removing an error message.
-
-It's about understanding:
-
-- What I expected the program to do
-- What the program actually did
-- Why the behavior was different
-- What caused the problem
-- How to fix the underlying issue
-- How to prevent similar problems in the future
-
-My current learning process looks like this:
+Currently working primarily with:
 
 ```text
-┌─────────────────────┐
-│   Learn a Concept   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   Build Something   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│     Get Stuck 😅    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│      Debug 🐞       │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   Understand Why    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│      Improve 🔧     │
-└─────────────────────┘
+🐍 Python
+📁 File Handling
+💾 JSON
+🧱 Object-Oriented Programming
+🧠 Problem Solving
+🐞 Debugging
 
----
+As the repository grows, the stack will expand into areas such as:
 
-# 🚀 What's Next?
+Python
+  ↓
+Data Structures & Algorithms
+  ↓
+OOP & Software Development
+  ↓
+APIs & Databases
+  ↓
+Data Analysis
+  ↓
+Machine Learning
+  ↓
+AI
 
-This repository will continue to grow as I learn new concepts, build more projects, and improve the projects I've already created.
+🔄 How I Learn
+My approach is simple:
 
-My focus is not only on learning new technologies, but also on developing the ability to write cleaner, more structured, maintainable, and reliable code.
-
-## 🔜 Coming Up
-
-The next areas I plan to explore include:
-
-- 🧱 **Data Structures & Algorithms**
-  - Lists, tuples, sets, dictionaries
-  - Stacks and queues
-  - Searching and sorting
-  - Basic algorithmic thinking
-  - Time and space complexity
-
-- 🏗️ **Object-Oriented Programming**
-  - Classes and objects
-  - Encapsulation
-  - Inheritance
-  - Polymorphism
-  - Abstraction
-  - Designing reusable code
-
-- 💾 **JSON & Structured Data**
-  - Reading and writing JSON files
-  - Working with structured data
-  - Converting Python data into JSON
-  - Managing persistent application data
-
-- 🗄️ **Databases**
-  - Database fundamentals
-  - SQL
-  - SQLite
-  - CRUD operations
-  - Connecting Python applications to databases
-
-- 🌐 **APIs**
-  - Understanding APIs
-  - HTTP requests
-  - Working with JSON responses
-  - Using Python libraries such as `requests`
-  - Building small API-based projects
-
-- 📊 **Data Analysis**
-  - NumPy
-  - Pandas
-  - Data cleaning
-  - Data manipulation
-  - Data visualization
-  - Working with real-world datasets
-
-- ⚙️ **Automation**
-  - Automating repetitive tasks
-  - File and folder automation
-  - Data processing scripts
-  - Useful command-line tools
-
-- 🧪 **Testing**
-  - Understanding software testing
-  - Writing basic test cases
-  - Unit testing
-  - Testing edge cases
-  - Using Python testing tools
-
-- 🧹 **Code Quality & Refactoring**
-  - Improving existing code
-  - Reducing unnecessary complexity
-  - Writing cleaner functions
-  - Improving project structure
-  - Making code easier to maintain
-
-- 🤖 **AI/ML Fundamentals**
-  - Understanding machine learning concepts
-  - Working with datasets
-  - Data preprocessing
-  - Basic statistics
-  - Model training fundamentals
-  - Evaluating machine learning models
-  - Building beginner-level AI/ML projects
-
----
-
-# 📈 Learning Philosophy
-
-I'm not trying to make every project perfect on the first attempt.
-
-I'm trying to make **each project better than the previous one**.
-
-I believe programming is learned through a combination of studying, building, making mistakes, debugging, and improving.
-
-My current learning cycle is:
-
-```text
         ┌───────────────┐
         │     Learn     │
         └───────┬───────┘
-                │
-                ▼
+                ↓
         ┌───────────────┐
         │     Build     │
         └───────┬───────┘
-                │
-                ▼
+                ↓
         ┌───────────────┐
-        │     Break     │
+        │    Break 🐞   │
         └───────┬───────┘
-                │
-                ▼
+                ↓
         ┌───────────────┐
         │     Debug     │
         └───────┬───────┘
-                │
-                ▼
+                ↓
         ┌───────────────┐
         │   Understand  │
         └───────┬───────┘
-                │
-                ▼
+                ↓
         ┌───────────────┐
         │    Improve    │
         └───────┬───────┘
                 │
-                └───────────────┐
-                                │
-                                ▼
-                             Repeat
+                └──────────────→ Repeat
 
----
+I don't expect every project to be perfect.
 
-# 🧠 What I Want to Develop
+Instead, I want each project to teach me something that I can apply to the next one.
 
-Through these projects, I want to gradually become better at:
+📈 Progression
+One thing I want this repository to demonstrate is the progression of my programming skills.
 
-- 🧠 Understanding problems before writing code
-- 🧩 Breaking large problems into smaller, manageable problems
-- 💡 Developing logical and structured solutions
-- 🐍 Writing Python code independently
-- 📚 Reading and understanding documentation
-- 🔍 Understanding how code works instead of only memorizing syntax
-- 🐞 Debugging errors systematically
-- ⚠️ Handling invalid input and edge cases
-- 🧹 Writing clean, readable, and maintainable code
-- 🔧 Refactoring older code as my skills improve
-- 🏗️ Designing better program structures
-- 🛠️ Building projects without relying completely on tutorials
-- 🧪 Testing programs and identifying unexpected behavior
-- 📈 Improving problem-solving and algorithmic thinking
-- 🤖 Building a strong foundation for AI/ML development
+For example:
 
----
+Expense Tracker
+      │
+      │ Functions
+      │ File Handling
+      │ Basic Data Processing
+      ▼
+Library Management
+      │
+      │ More Program Logic
+      │ File Manipulation
+      │ State Management
+      ▼
+Banking Management System
+      │
+      │ OOP
+      │ Classes
+      │ Inheritance
+      │ JSON
+      │ Persistent Data
+      ▼
+      ?
 
-# 🛠️ Tech Stack & Learning Roadmap
+The ? represents the projects that haven't been built yet.
 
-## 🟢 Currently Using
+That's intentional.
 
-- 🐍 Python
-- 🔄 Control Flow
-- 🧩 Functions
-- 📋 Lists and Basic Data Structures
-- 📁 File Handling
-- 🔤 String Manipulation
-- ⚠️ Exception Handling
-- 📅 Python Standard Library
-- 🧠 Problem-Solving Techniques
+🐞 Learning Through Bugs
+A major part of this repository is debugging.
 
-## 🟡 Learning Next
+When something doesn't work, I'm trying to understand:
 
-- 🧱 Data Structures & Algorithms
-- 🏗️ Object-Oriented Programming
-- 💾 JSON
-- 🧪 Testing
-- 🧹 Code Refactoring
-- 🌐 APIs
+What did I expect?
 
-## 🔵 Future Areas
+What actually happened?
 
-- 🗄️ Databases
-- 📊 Data Analysis
-- 📈 Data Visualization
-- ⚙️ Automation
-- 🔢 NumPy
-- 🐼 Pandas
-- 🤖 Machine Learning
-- 🧠 Artificial Intelligence
+Why did it happen?
 
----
+Where is the problem?
 
-# 🚧 Repository Status
+How can I fix it?
 
-🟢 **Actively Learning & Building**
+What did I learn from it?
 
-This repository is a work in progress.
+I want to become comfortable with the process of finding problems rather than being afraid of errors.
 
-Some projects may:
+An error message isn't just a problem. It's information.
 
-- Be incomplete
-- Have known limitations
-- Contain beginner-level implementations
-- Use simple solutions that may be improved later
-- Be refactored as my understanding grows
-- Change significantly over time
+🔧 Improving Older Projects
+I don't want to simply build a project and forget about it.
 
-That is part of the purpose of this repository.
+As I learn new concepts, I plan to revisit older projects and improve them.
 
-I want this repository to show the **learning process**, not just polished final results.
+Possible improvements include:
 
-As I learn better programming practices, I will revisit older projects and improve them.
+Better program structure
 
-> **The goal isn't perfect code. The goal is continuous improvement.**
+Cleaner functions
 
----
+Better data structures
 
-# 🔄 Improving Older Projects
+Improved validation
 
-One of my goals is to revisit older projects instead of simply moving on after getting them to work.
+Better error handling
 
-As I learn new concepts, I want to return to previous projects and ask:
+JSON/database integration
 
-- Can the code be cleaner?
-- Can the structure be improved?
-- Can repetitive code be reduced?
-- Can better data structures be used?
-- Can input validation be improved?
-- Can edge cases be handled more effectively?
-- Can the data storage be improved?
-- Can functions be designed more effectively?
-- Can the project be made easier to maintain?
-- Can new concepts be applied without making the code unnecessarily complicated?
+Object-oriented design
 
-This process will help me understand how the same problem can be solved differently as my programming skills improve.
+Automated testing
 
----
+Improved user experience
 
-# 📚 Why This Repository Exists
+This means older projects may change significantly over time.
 
-This repository is more than a collection of Python programs.
+🚧 Repository Status
+🟢 Actively Learning & Building
 
-It is a **record of my learning journey through code**.
+This repository is continuously evolving.
 
-Every project represents something I have learned, struggled with, debugged, or understood better.
+Projects may contain:
 
-Some projects may be simple, but each one helps build the foundation required for more advanced programming and AI/ML projects in the future.
+Beginner-level implementations
 
-My goal is to gradually progress from:
+Known bugs
 
-```text
-Basic Python
-     ↓
-Programming Fundamentals
-     ↓
-Data Structures & Algorithms
-     ↓
-Object-Oriented Programming
-     ↓
-APIs & Databases
-     ↓
-Data Analysis
-     ↓
-Machine Learning
-     ↓
-AI/ML Projects
+Incomplete features
 
----
+Simple solutions that can be improved
 
-# 📈 Progress Over Perfection
+Experimental code
 
-I want this repository to reflect my **growth as a programmer**, not just a collection of finished projects.
+That's part of the learning process.
 
-Every project is an opportunity to learn something new, make mistakes, solve problems, and improve.
+The goal is not to hide the early versions.
 
-Over time, I want this repository to show:
+The goal is to learn from them and improve them.
 
-- 📚 What I have learned
-- 🛠️ What I have built
-- 🐞 What problems I have encountered
-- 🔍 How I have debugged those problems
-- 🧠 What I have understood from them
-- 🔧 How I have improved my code
-- 📈 How my programming skills have developed
-- 🚀 How my projects have become more challenging over time
+🎯 Long-Term Goal
+The long-term goal is to move from writing small Python programs to building increasingly complex software and eventually applying these foundations to AI/ML development.
 
-I understand that progress will not always be fast.
+My current direction:
 
-Some concepts will take time to understand. Some projects will be difficult. Some solutions will fail.
-
-That's okay.
-
-What matters is continuing to learn, solve problems, and improve.
-
-> **Progress is more important than perfection.**
-
----
-
-# 👨‍💻 About Me
-
-I'm a **B.Tech CSE student** currently strengthening my programming fundamentals and working toward **AI/ML development**.
-
-I'm using small projects to turn programming concepts into practical experience and become more comfortable solving problems independently.
-
-Instead of only studying theory, I'm trying to learn by:
-
-**Building → Breaking → Debugging → Understanding → Improving**
-
-My goal is to become a developer who can:
-
-- 🧠 Understand problems clearly
-- 💡 Think logically
-- 🧩 Break complex problems into smaller parts
-- 🛠️ Design practical solutions
-- 🐍 Write code independently
-- 🐞 Debug problems effectively
-- 📚 Learn from documentation and experimentation
-- 🔧 Improve existing code
-- 🚀 Build useful projects
-- 🤖 Gradually move toward AI/ML development
-
-This repository is a record of that journey.
-
----
-
-# 🌱 Long-Term Direction
-
-As my programming fundamentals become stronger, I want to gradually move toward more advanced areas of computer science and AI/ML.
-
-My long-term learning path looks something like this:
-
-```text
 Python Fundamentals
         ↓
-Programming & Problem Solving
+Problem Solving
         ↓
 Data Structures & Algorithms
         ↓
@@ -553,7 +317,49 @@ Machine Learning
         ↓
 Deep Learning
         ↓
-Artificial Intelligence
-        ↓
-Real-World AI/ML Projects
----
+AI/ML Projects
+
+I'm focusing on building the foundation properly before jumping into advanced topics.
+
+👨‍💻 About Me
+I'm a B.Tech CSE student working on strengthening my programming fundamentals and gradually moving toward AI/ML.
+
+I'm using projects as a way to turn concepts into practical experience.
+
+My current philosophy:
+
+Don't just learn the syntax. Understand the problem. Build the solution. Break it. Debug it. Improve it.
+
+🌱 What's Next?
+More projects.
+
+More bugs.
+
+More debugging.
+
+More concepts.
+
+And hopefully, better code.
+
+This repository will continue to grow as I learn.
+
+⭐ If you're exploring this repository
+Start with any project that interests you.
+
+Each project contains its own documentation explaining:
+
+What it does
+
+How it works
+
+Concepts used
+
+How to run it
+
+Current limitations
+
+Future improvements
+
+Thanks for visiting my Python Labs. 🐍
+
+Build → Break → Debug → Understand → Improve → Repeat
