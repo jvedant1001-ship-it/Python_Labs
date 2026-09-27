@@ -1,7 +1,21 @@
-.vscode/
+# Python
 __pycache__/
+*.py[cod]
+
+# Virtual environments
 .venv/
-*.pyc
+venv/
+env/
+
+# Environment / secrets
 .env
-rough/
+.env.*
+
+# VS Code
+.vscode/
+
+# Local project data
 bank_data.json
+
+# Personal experiments
+rough/
