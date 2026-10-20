@@ -157,8 +157,13 @@ Machine Learning
   ↓
 AI
 
-🔄 How I Learn
+```
+---
+
+### 🔄 How I Learn
 My approach is simple:
+
+```text
 
         ┌───────────────┐
         │     Learn     │
@@ -190,8 +195,14 @@ I don't expect every project to be perfect.
 
 Instead, I want each project to teach me something that I can apply to the next one.
 
-📈 Progression
+```
+
+---
+
+### 📈 Progression
 One thing I want this repository to demonstrate is the progression of my programming skills.
+
+```text
 
 For example:
 
@@ -221,7 +232,10 @@ The ? represents the projects that haven't been built yet.
 
 That's intentional.
 
-🐞 Learning Through Bugs
+```
+---
+
+### 🐞 Learning Through Bugs
 A major part of this repository is debugging.
 
 When something doesn't work, I'm trying to understand:
@@ -242,7 +256,9 @@ I want to become comfortable with the process of finding problems rather than be
 
 An error message isn't just a problem. It's information.
 
-🔧 Improving Older Projects
+---
+
+### 🔧 Improving Older Projects
 I don't want to simply build a project and forget about it.
 
 As I learn new concepts, I plan to revisit older projects and improve them.
@@ -269,7 +285,9 @@ Improved user experience
 
 This means older projects may change significantly over time.
 
-🚧 Repository Status
+---
+
+### 🚧 Repository Status
 🟢 Actively Learning & Building
 
 This repository is continuously evolving.
@@ -292,7 +310,9 @@ The goal is not to hide the early versions.
 
 The goal is to learn from them and improve them.
 
-🎯 Long-Term Goal
+---
+
+### 🎯 Long-Term Goal
 The long-term goal is to move from writing small Python programs to building increasingly complex software and eventually applying these foundations to AI/ML development.
 
 My current direction:
@@ -321,7 +341,9 @@ AI/ML Projects
 
 I'm focusing on building the foundation properly before jumping into advanced topics.
 
-👨‍💻 About Me
+---
+
+### 👨‍💻 About Me
 I'm a B.Tech CSE student working on strengthening my programming fundamentals and gradually moving toward AI/ML.
 
 I'm using projects as a way to turn concepts into practical experience.
@@ -330,7 +352,9 @@ My current philosophy:
 
 Don't just learn the syntax. Understand the problem. Build the solution. Break it. Debug it. Improve it.
 
-🌱 What's Next?
+---
+
+### 🌱 What's Next?
 More projects.
 
 More bugs.
@@ -342,6 +366,8 @@ More concepts.
 And hopefully, better code.
 
 This repository will continue to grow as I learn.
+
+---
 
 ⭐ If you're exploring this repository
 Start with any project that interests you.
@@ -361,5 +387,7 @@ Current limitations
 Future improvements
 
 Thanks for visiting my Python Labs. 🐍
+
+---
 
 Build → Break → Debug → Understand → Improve → Repeat
