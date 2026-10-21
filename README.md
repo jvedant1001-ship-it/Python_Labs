@@ -1,4 +1,4 @@
-# 🐍 Python Labs
+<p align = "center"><b> 🐍 Python Labs</b></p>
 
 > A hands-on collection of Python projects built while learning, experimenting, debugging, and improving.
 
@@ -133,13 +133,15 @@ My focus is currently on building a strong foundation in Python and programming 
 
 Currently working primarily with:
 
-```text
+
 🐍 Python
 📁 File Handling
 💾 JSON
 🧱 Object-Oriented Programming
 🧠 Problem Solving
 🐞 Debugging
+
+```text
 
 As the repository grows, the stack will expand into areas such as:
 
@@ -190,12 +192,13 @@ My approach is simple:
         └───────┬───────┘
                 │
                 └──────────────→ Repeat
+```
 
 I don't expect every project to be perfect.
 
 Instead, I want each project to teach me something that I can apply to the next one.
 
-```
+
 
 ---
 
@@ -227,30 +230,31 @@ Banking Management System
       │ Persistent Data
       ▼
       ?
+```
 
 The ? represents the projects that haven't been built yet.
 
 That's intentional.
 
-```
 ---
 
 ### 🐞 Learning Through Bugs
+
 A major part of this repository is debugging.
 
 When something doesn't work, I'm trying to understand:
 
-What did I expect?
+- What did I expect?
 
-What actually happened?
+- What actually happened?
 
-Why did it happen?
+- Why did it happen?
 
-Where is the problem?
+- Where is the problem?
 
-How can I fix it?
+- How can I fix it?
 
-What did I learn from it?
+- What did I learn from it?
 
 I want to become comfortable with the process of finding problems rather than being afraid of errors.
 
@@ -259,6 +263,7 @@ An error message isn't just a problem. It's information.
 ---
 
 ### 🔧 Improving Older Projects
+
 I don't want to simply build a project and forget about it.
 
 As I learn new concepts, I plan to revisit older projects and improve them.
@@ -288,6 +293,7 @@ This means older projects may change significantly over time.
 ---
 
 ### 🚧 Repository Status
+
 🟢 Actively Learning & Building
 
 This repository is continuously evolving.
@@ -313,6 +319,7 @@ The goal is to learn from them and improve them.
 ---
 
 ### 🎯 Long-Term Goal
+
 The long-term goal is to move from writing small Python programs to building increasingly complex software and eventually applying these foundations to AI/ML development.
 
 My current direction:
@@ -344,6 +351,7 @@ I'm focusing on building the foundation properly before jumping into advanced to
 ---
 
 ### 👨‍💻 About Me
+
 I'm a B.Tech CSE student working on strengthening my programming fundamentals and gradually moving toward AI/ML.
 
 I'm using projects as a way to turn concepts into practical experience.
@@ -355,6 +363,7 @@ Don't just learn the syntax. Understand the problem. Build the solution. Break i
 ---
 
 ### 🌱 What's Next?
+
 More projects.
 
 More bugs.
@@ -370,6 +379,7 @@ This repository will continue to grow as I learn.
 ---
 
 ⭐ If you're exploring this repository
+
 Start with any project that interests you.
 
 Each project contains its own documentation explaining:
